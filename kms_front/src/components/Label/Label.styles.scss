@@ -1,0 +1,9 @@
+.custom-label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    & span{
+        color: red;
+        font-weight: bold;
+    }
+}

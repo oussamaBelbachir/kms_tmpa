@@ -1,0 +1,36 @@
+.form__input{
+    margin-bottom: 15px;
+    &.nomargin{
+        margin-bottom: 0px !important;
+    }
+    & label{
+        display: block;
+        margin-bottom: 8px;
+        font-size: 15px;
+        & span{
+            color: red;
+            font-weight: bold;
+        }
+    }
+
+    & input ,& select{
+        display: block;
+        width: 100%;
+        padding: 13px 10px;
+        // border: 1px solid #aaa;
+        border: none;
+        background-color: #ededed;
+        border-radius: 5px;
+      
+    }
+    & select{
+        text-transform: capitalize !important;
+    }
+
+    & option{
+        text-transform: capitalize !important;
+    }
+   
+
+
+}

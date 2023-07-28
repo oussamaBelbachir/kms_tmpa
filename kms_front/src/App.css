@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+input,select{
+    outline: none !important;
+
+}
+a{
+    color: inherit !important;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.app{
+    /* padding: 20px; */
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
